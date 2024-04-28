@@ -23,7 +23,7 @@ function saveStudentData() {
 // Define a function to fetch all students from AWS API
 function fetchAllStudents() {
     // Make an HTTP GET request to AWS API endpoint
-    fetch('YOUR_AWS_API_ENDPOINT')
+    fetch('https://tigrmjrrt7.execute-api.us-east-1.amazonaws.com/Studentgrades')
     .then(response => response.json())
     .then(data => {
         // Clear existing table rows
